@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  /* System Cursive / Handwriting Fonts (No external API needed) */
+  --font-apple: "Homemade Apple", "Snell Roundhand", "Brush Script MT", cursive;
+  --font-zeyada: "Zeyada", "Apple Chancery", "Segoe Script", cursive;
+  --font-badscript: "Bad Script", "Lucida Handwriting", cursive;
+  --font-cedarville: "Cedarville Cursive", "Snell Roundhand", cursive;
+  --font-delafield: "Mrs Saint Delafield", cursive;
+  --font-belle: "La Belle Aurore", cursive;
+  --font-meddon: "Meddon", "Georgia", serif;
+
+  --color-paper-bg: #FDFBF0;
+  --color-accent-blue: #3B82F6;
+  --color-line-red: #FF9999;
+  --color-line-blue: #99CCFF;
+}
